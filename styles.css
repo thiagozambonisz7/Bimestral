@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(121, 50, 121), rgb(128, 93, 255));
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    width: 60%;
+    height: 70%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.promocao {
+    flex: 1.2;
+    background-color: rgb(49, 190, 255);
+    padding: 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.promocao h1 {
+    font-size: 5em;
+    margin-top: 100px;
+}
+.promocao p {
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+.promocao h2 {
+    font-size: 1.2em;
+    background-color: white;
+    color: rgb(0, 26, 255);
+    padding: 20px;
+    border-radius: 5px;
+}
+.login {
+    flex: 1;
+    background-color: white;
+    padding: 50px;
+    color: black;
+}
+.login h1 {
+    margin-top: 0p;
+    margin-left: 25px;
+    color: rgb(13, 13, 68);
+    font-size: 2.3em;
+}
+.login p {
+    margin-top: -15px;
+    margin-left: 25px;
+    color: gray;
+}
+
+label {
+    margin-left: 25px;
+    color: gray;
+}
+
+.login input {
+    display: block;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+        margin-left: 25px;
+    color: gray;
+}
+.login button {
+    padding: 30px 165px;
+    background-color: rgb(0, 183, 255);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 25px;
+    font-size: 30px;
+}
+.login a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+h3 {
+    margin-left: 25px;
+    color: gray;
+    font-size: 20px;
+}
+
+h4 {
+    margin-top: -8%;
+    margin-left: 255px;
+    color: gray;
+    font-size: 17px;
+    font-style: italic;
+    
+}
